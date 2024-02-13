@@ -11,7 +11,7 @@ This project aims to demystify the fundamental concepts and applications of stat
 
 ## Highlights of the Poster
 - **What is Statistics?**: An introduction to statistics as the science of learning from data, emphasizing its importance in identifying patterns and making informed decisions based on data analysis.
-- **Engaging with Advanced Concepts**: The poster delves into more complex statistical concepts such as Descriptive and Inferential Statistics, Error Propagation, and Model Fitting and Confidence. These concepts are presented in an accessible manner, using analogies and visual aids to facilitate understanding.
+- **Engaging with Advanced Concepts**: The poster delves into more complex statistical concepts such as Descriptive and Inferential Statistics, Error Propagation, and Model Fitting. These concepts are presented in an accessible manner, using analogies and visual aids to facilitate understanding.
 - **The Fascinating World of Statistics**: This section showcases the application of statistics across various fields such as Economics, Environmental Science, and Social Media Analysis, highlighting how statistical analysis illuminates paths in diverse domains by simplifying complexities and clarifying uncertainties.
 - **Data Visualization and Its Impact**: Through the example of sports analytics, specifically the performance data of ice hockey player Ross Venus, we demonstrate the power of data visualization in scouting talent and predicting game outcomes, making statistics engaging and relatable.
 

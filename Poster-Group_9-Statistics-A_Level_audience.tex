@@ -11,6 +11,9 @@
 
 \usepackage{caption}
 
+\settowidth{\leftmargini}{\usebeamertemplate{itemize item}}
+\addtolength{\leftmargini}{2\labelsep}
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[scale=0.8]{newpxtext} 
@@ -130,40 +133,53 @@
 
 			\begin{block}{Engaging Advanced Concepts}
 
-				\vspace{2cm}
+				\vspace{1.4cm}
 
-				\begin{minipage}{0.3\textwidth}
+				\begin{minipage}{0.28\textwidth}
 					\centering
-					\includegraphics[width=\linewidth]{./images/1-2-1-StoryTelling.jpeg}
+					\includegraphics[width=\linewidth]{./images/1-2-1-BrushOnCanvas.jpeg}
 				\end{minipage}
 				\hfill
-				\begin{minipage}{0.68\textwidth}
-					\textbf{Descriptive Statistics \& Inferential Statistics:} Think of statistics as storytelling. Descriptive statistics outline the story - the heroes and their journey. Inferential statistics predict the next twist, based on the story so far.
+				\begin{minipage}{0.7\textwidth}
+					\textbf{Descriptive vs. Inferential Statistics}
+					\begin{itemize}
+						\item \textbf{Descriptive Statistics:} Brush strokes on a canvas - showing the immediate picture.
+						\item \textbf{Inferential Statistics:} Predicting the next masterpiece - based on past works.
+					\end{itemize}
 				\end{minipage}
 
-				\vspace{1cm}
+				\vspace{2.5cm}
 
-				\begin{minipage}{0.3\textwidth}
+				\begin{minipage}{0.28\textwidth}
 					\centering
 					\includegraphics[width=\linewidth]{./images/1-2-2-WhisperGame.jpeg} 
 				\end{minipage}
 				\hfill
-				\begin{minipage}{0.68\textwidth}
-					\textbf{Error Propagation:} Like a game of telephone, small errors in measurements can grow when combined. Understanding this helps us make decisions with the most accurate information.
+				\begin{minipage}{0.7\textwidth}
+					\textbf{Error Propagation}
+					\begin{itemize}
+						\item Like a game of telephone - small errors grow when combined.
+						\item Understanding this - for decisions with accurate information.
+					\end{itemize}
 				\end{minipage}
 
-				\vspace{1cm}
+				\vspace{2.5cm}
 
-				\begin{minipage}{0.3\textwidth}
+				\begin{minipage}{0.28\textwidth}
 					\centering
-					\includegraphics[width=\linewidth]{./images/1-2-3-TailorSuit.jpeg}
+					\includegraphics[width=\linewidth]{./images/1-2-3-Puzzles.jpeg}
 				\end{minipage}
 				\hfill
-				\begin{minipage}{0.68\textwidth}
-					\textbf{Model Fitting and Confidence:} Like tailoring a suit, we adjust our models to fit our data. Confidence tells us how sure we can be about our predictions.
+				\begin{minipage}{0.7\textwidth}
+					\textbf{Matching Models with Reality}
+					\begin{itemize}
+						\item Models as puzzles - each piece a bit of data.
+						\item Our job - put it together - accurately reflects the real world.
+						\item Helps understand complex phenomena - through a simpler framework.
+					\end{itemize}
 				\end{minipage}
 
-				\vspace{1.75cm}
+				\vspace{1.4cm}
 
 			\end{block}
 
@@ -172,7 +188,7 @@
 		% Column 2 - centre - title block
 		\begin{column}{.33\textwidth}
 
-			\vspace{-0.6cm}
+			\vspace{-0.82cm}
 
 			\begin{block}{}
 				\centering
@@ -200,40 +216,55 @@
 
 				Here's how statistics lights up the path in various fields, making the complex simple and the uncertain clear:
 
-				\vspace{1cm}
+				\vspace{2cm}
 
-				\begin{minipage}{0.3\textwidth}
+				\begin{minipage}{0.28\textwidth}
 					\centering
 					\includegraphics[width=0.88\linewidth]{./images/2-2-1-StockMarket.jpeg}
 				\end{minipage}
 				\hfill
-				\begin{minipage}{0.68\textwidth}
-					\textbf{In Economics:} Ever wondered how stock markets predict future trends? Statistics! By analyzing past data, statisticians can forecast market movements, helping investors make informed decisions.
+				\begin{minipage}{0.71\textwidth}
+					\textbf{In Economics}
+					\begin{itemize}
+						\item \textbf{Stock Markets:} Use statistics to predict future trends.
+						\item \textbf{Data Analysis:} Helps forecast market movements.
+						\item \textbf{Informed Decisions:} Aids investors in making smarter choices.
+					\end{itemize}
 				\end{minipage}
 
-				\vspace{1cm}
+				\vspace{2.5cm}
 
-				\begin{minipage}{0.3\textwidth}
+				\begin{minipage}{0.28\textwidth}
 					\centering
 					\includegraphics[width=0.88\linewidth]{./images/2-2-2-AirPollution.jpeg}
 				\end{minipage}
 				\hfill
-				\begin{minipage}{0.68\textwidth}
-					\textbf{In Environmental Science:} How do we know if the air quality is getting worse or better? Through statistics, scientists track pollution levels over time, providing us with information to protect our planet.
+				\begin{minipage}{0.71\textwidth}
+					\textbf{In Environmental Science}
+					\begin{itemize}
+						\item \textbf{Air Quality:} Statistics reveal trends in pollution levels.
+						\item \textbf{Time Tracking:} Offers insights over different periods.
+						\item \textbf{Planet Protection:} Provides data to safeguard our environment.
+					\end{itemize}
 				\end{minipage}
 
-				\vspace{1cm}
+				\vspace{2.5cm}
 
-				\begin{minipage}{0.3\textwidth}
+				\begin{minipage}{0.28\textwidth}
 					\centering
 					\includegraphics[width=0.88\linewidth]{./images/2-2-3-SocialMedia.jpeg}
 				\end{minipage}
 				\hfill
-				\begin{minipage}{0.68\textwidth}
-					\textbf{In Social Media Analysis:}  Ever noticed how some posts get more likes or shares than others? That's statistics at work! By analyzing data on user engagement (like clicks, shares, and time spent on posts), content creators can optimize their posts to reach a wider audience.
+				\begin{minipage}{0.71\textwidth}
+					\textbf{In Social Media Analysis}
+					\begin{itemize}
+						\item \textbf{Engagement Analysis:} Understands why some posts perform better.
+						\item \textbf{User Data:} Analyzes clicks, shares, and viewing times.
+						\item \textbf{Content Optimization:} Helps tailor posts for wider reach.
+					\end{itemize}
 				\end{minipage}
-
-				\vspace{1cm}
+				
+				\vspace{2cm}				
 
 			\end{block}
 
@@ -241,25 +272,33 @@
 			
 			\begin{block}{A World Without Statistics}
 				
-				\vspace{1cm}
+				\vspace{1.1cm}
 				
-				\begin{minipage}{0.43\textwidth}
+				\begin{minipage}[t][0.3\textwidth][t]{0.3\textwidth}
 					\centering
 					\includegraphics[width=0.7\linewidth]{./images/2-3-1-PopulationOverload.jpeg}\\
 					\vspace{0.5cm}  
 					\textbf{Population Overload}\\
-					\small Without statistics, we can't analyze or predict population trends, risking unsustainable growth.
+					\small We can't analyze or predict population trends, risking unsustainable growth.
 				\end{minipage}
 				\hfill
-				\begin{minipage}{0.43\textwidth}
+				\begin{minipage}[t][0.33\textwidth][t]{0.33\textwidth}
 					\centering
-					\includegraphics[width=0.7\linewidth]{./images/2-3-2-Inflation.jpeg}\\
+					\includegraphics[width=0.64\linewidth]{./images/2-3-2-Inflation.jpeg}\\
 					\vspace{0.5cm}  
 					\textbf{Inflation Out of Control}\\
-					\small Without statistics, controlling inflation is a guesswork. Imagine paying £1,000 for fish and chips!
+					\small Controlling inflation is guesswork. Imagine paying £1,000 for fish and chips!
+				\end{minipage}
+				\hfill
+				\begin{minipage}[t][0.3\textwidth][t]{0.3\textwidth}
+					\centering
+					\includegraphics[width=0.7\linewidth]{./images/2-3-3-YourThoughts.jpeg}\\
+					\vspace{0.5cm}
+					\textbf{Your Thoughts?}\\
+					\small What aspects of your daily life do you think would be impacted without statistics?
 				\end{minipage}
 
-				\vspace{0.5cm}
+				\vspace{2.92cm}
 				
 			\end{block}
 			
